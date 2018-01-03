@@ -18,6 +18,7 @@ void main()
    b=a-b;
    a=a-b;
    */
+  //XOR gate outputs 1 when there are odd number of 1s
    a=a^b;
    b=a^b;
    a=a^b;
